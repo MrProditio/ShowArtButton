@@ -28,7 +28,7 @@
 			"path": "lang/es.json"
 		}
 	],
-	"manifest": "https://raw.githubusercontent.com/MrProditio/ShowArtButton/main/module.json",
+	"manifest": "https://raw.githubusercontent.com/MrProditio/ShowArtButton/refs/heads/master/module.json",
 	"url": "https://github.com/MrProditio/ShowArtButton",
 	"download": "https://github.com/MrProditio/ShowArtButton/releases/latest/download/show-art-button.zip",
 	"readme": "https://github.com/MrProditio/ShowArtButton/blob/main/README.md",
