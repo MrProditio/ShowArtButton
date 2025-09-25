@@ -7,7 +7,7 @@
   { "name": "vgeirnaert" },
   { "name": "Proditio" }
 ],
-	"version": "1.0.2",
+	"version": "1.0.6",
 	"compatibility": {
 		"minimum": 13,
 		"verified": 13
@@ -33,7 +33,7 @@
 	"media": [
 		{
 			"type": "icon",
-			"url": "https://avatars2.githubusercontent.com/u/1721836"
+			"url": "https://raw.githubusercontent.com/MrProditio/ShowArtButton/refs/heads/master/art-button.svg"
 		}
 	]
 }
