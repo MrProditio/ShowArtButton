@@ -29,11 +29,7 @@
 		}
 	],
 	"manifest": "https://raw.githubusercontent.com/MrProditio/ShowArtButton/refs/heads/master/module.json",
-	"url": "https://github.com/MrProditio/ShowArtButton",
 	"download": "https://github.com/MrProditio/ShowArtButton/releases/latest/download/show-art-button.zip",
-	"readme": "https://github.com/MrProditio/ShowArtButton/blob/main/README.md",
-	"bugs": "https://github.com/MrProditio/ShowArtButton/issues",
-	"changelog": "https://github.com/MrProditio/ShowArtButton/releases",
 	"media": [
 		{
 			"type": "icon",

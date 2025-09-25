@@ -205,19 +205,21 @@ class ShowArt {
 	 * @memberof ShowArt
 	 */
 	static getTokenTitles(token, actor) {
-		const	M = CONST.TOKEN_DISPLAY_MODES,
-				dn = token.displayName;
+  const M = CONST.TOKEN_DISPLAY_MODES;
+  const dn = token.displayName;
 
-		if (dn == M.ALWAYS || dn == M.HOVER) return {
-			actor: token.actorData.name || actor.name,
-			token: token.name,
-		}
+  if (dn === M.ALWAYS || dn === M.HOVER) {
+    return {
+      actor: actor?.name ?? game.i18n.localize("TKNHAB.ActorImg"),
+      token: token.name
+    }
+  }
 
-		return { 
-			actor: game.i18n.localize("TKNHAB.ActorImg"),
-			token: game.i18n.localize("TKNHAB.TokenImg")
-		}
-	}
+  return { 
+    actor: game.i18n.localize("TKNHAB.ActorImg"),
+    token: game.i18n.localize("TKNHAB.TokenImg")
+  };
+}
 	/**
 	 * @typedef {Object} images
 	 * @property {string} actor - The image for the Actor
@@ -233,22 +235,16 @@ class ShowArt {
 	 * @memberof ShowArt
 	 */
 	static getTokenImages(token, actor) {
-		const mystery = "icons/svg/mystery-man.svg";
-		const synthActor = token.actorData;
+  const mystery = "icons/svg/mystery-man.svg";
 
-		let actorImg = synthActor.img || actor.img;
-		let tokenImg = token.texture.src;
+  let actorImg = actor?.img || mystery;
+  let tokenImg = token.texture.src || mystery;
 
-		const am = actorImg === mystery;
-		const tm = tokenImg === mystery;
+  if (actorImg === mystery && tokenImg !== mystery) actorImg = tokenImg;
+  if (tokenImg === mystery && actorImg !== mystery) tokenImg = actorImg;
 
-		if (!(am && tm)) {
-			actorImg = am ? tokenImg : actorImg;
-			tokenImg = tm ? actorImg : tokenImg;
-		}
-
-		return { actor: actorImg, token: tokenImg };
-	}
+  return { actor: actorImg, token: tokenImg };
+}
 	/**
 	 * Create the HTML elements for the HUD button
 	 * including the Font Awesome icon and tooltop.
@@ -310,7 +306,7 @@ class ShowArt {
 		$(artButton)
 			.click((event) =>
 				this.buttonEventHandler(
-					event, tile.img,
+					event, tile.document.img,
 					game.i18n.localize("TKNHAB.TileImg")
 				)
 			)

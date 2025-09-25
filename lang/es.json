@@ -1,10 +1,10 @@
 {
-	"TKNHAB.TooltipText": "Click para retrato, y click derecho para token.",
-	"TKNHAB.TileImg": "Tile Image",
-	"TKNHAB.ActorImg": "Retrato",
-	"TKNHAB.TokenImg": "Token",
-	"TKNHAB.kebind.tokenImage.name": "Show Token or Tile art.",
-	"TKNHAB.kebind.tokenImage.hint": "Shows the art of the currently selected Token or Tile to everyone. Hold alt to show only to yourself.",
-	"TKNHAB.kebind.actorImage.name": "Show Actor art.",
-	"TKNHAB.kebind.actorImage.hint": "Shows the art of the Actor for the currently selected Token to everyone. Hold alt to show only to yourself."
+  "TKNHAB.TooltipText": "Click para mostrar retrato, click derecho para token.",
+  "TKNHAB.TileImg": "Imagen de mosaico",
+  "TKNHAB.ActorImg": "Retrato",
+  "TKNHAB.TokenImg": "Token",
+  "TKNHAB.kebind.tokenImage.name": "Mostrar arte de token o mosaico",
+  "TKNHAB.kebind.tokenImage.hint": "Muestra el arte del token o mosaico seleccionado a todos. Mantén Alt para mostrarlo solo a ti.",
+  "TKNHAB.kebind.actorImage.name": "Mostrar arte del actor",
+  "TKNHAB.kebind.actorImage.hint": "Muestra el arte del actor del token seleccionado a todos. Mantén Alt para mostrarlo solo a ti."
 }
