@@ -16,7 +16,7 @@
 	"version": "100.1.3.0",
 	"compatibility": {
 		"minimum": 10,
-		"verified": 10
+		"verified": 13
 	},
 	"socket": "true",
 	"scripts": [
