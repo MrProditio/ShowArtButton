@@ -34,12 +34,12 @@
 			"path": "lang/es.json"
 		}
 	],
-	"manifest": "https://github.com/zeel01/TokenHUDArtButton/releases/latest/download/module.json",
-	"url": "https://github.com/zeel01/TokenHUDArtButton",
-	"download": "https://github.com/zeel01/TokenHUDArtButton/releases/latest/download/artbutton.zip",
-	"readme": "https://github.com/zeel01/TokenHUDArtButton/blob/master/readme.md",
-	"bugs": "https://github.com/zeel01/TokenHUDArtButton/issues",
-	"changelog": "https://github.com/zeel01/TokenHUDArtButton/releases",
+	"manifest": "https://raw.githubusercontent.com/MrProditio/ShowArtButton/main/module.json",
+	"url": "https://github.com/MrProditio/ShowArtButton",
+	"download": "https://github.com/MrProditio/ShowArtButton/releases/latest/download/show-art-button.zip",
+	"readme": "https://github.com/MrProditio/ShowArtButton/blob/main/README.md",
+	"bugs": "https://github.com/MrProditio/ShowArtButton/issues",
+	"changelog": "https://github.com/MrProditio/ShowArtButton/releases",
 	"media": [
 		{
 			"type": "icon",
